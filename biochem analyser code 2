@@ -1,0 +1,11 @@
+[
+    {
+        "patient_id": "P001",
+        "test_name": "Glucose",
+        "absorbance": 0.45,
+        "concentration": 90.0,
+        "unit": "mg/dL",
+        "status": "Normal",
+        "timestamp": "2025-07-24 01:28:00"
+    }
+]
