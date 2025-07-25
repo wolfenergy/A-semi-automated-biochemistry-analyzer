@@ -1,0 +1,7 @@
+import serial
+
+def read_absorbance():
+    ser = serial.Serial('COM1', 9600, timeout=1)  # Adjust port and baud rate
+    absorbance = float(ser.readline().decode().strip())
+    ser.close()
+    return absorbance
