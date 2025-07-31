@@ -1,0 +1,14 @@
+      if choice == "1":
+            patient_id = input("Enter Patient ID: ")
+            print(f"Available tests: {list(analyzer.tests.keys())}")
+            test_name = input("Enter test name: ")
+            analyzer.run_test(patient_id, test_name)
+
+        elif choice == "2":
+            analyzer.view_results()
+
+        elif choice == "3":
+            print("Exiting analyzer. Goodbye!")
+            break
+
+        else:
