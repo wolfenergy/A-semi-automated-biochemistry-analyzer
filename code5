@@ -1,0 +1,15 @@
+def main():
+    analyzer = BiochemistryAnalyzer()
+
+    while True:
+        print("\n=== Semi-Automated Biochemistry Analyzer ===")
+        print("1. Run New Test")
+        print("2. View All Results")
+        print("3. Exit")
+        choice = input("Enter your choice (1-3): ")
+
+  
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
