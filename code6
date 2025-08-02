@@ -1,0 +1,11 @@
+  def view_results(self):
+        """Display all test results."""
+        if not self.results:
+            print("No test results available.")
+            return
+        print("\n--- All Test Results ---")
+        for result in self.results:
+            print(f"Patient ID: {result['patient_id']}, Test: {result['test_name']}, "
+                  f"Concentration: {result['concentration']} {result['unit']}, "
+                  f"Status: {result['status']}, Time: {result['timestamp']}")
+        print("-----------------------")
