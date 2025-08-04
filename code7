@@ -1,0 +1,7 @@
+  print("\n--- Test Results ---")
+        print(f"Patient ID: {patient_id}")
+        print(f"Test: {test_name}")
+        print(f"Absorbance: {absorbance:.2f}")
+        print(f"Concentration: {concentration} {self.tests[test_name]['unit']}")
+        print(f"Status: {status} (Reference Range: {self.tests[test_name]['range'][0]}–{self.tests[test_name]['range'][1]} {self.tests[test_name]['unit']})")
+        print("------------------")
