@@ -1,0 +1,11 @@
+    result = {
+            "patient_id": patient_id,
+            "test_name": test_name,
+            "absorbance": absorbance,
+            "concentration": concentration,
+            "unit": self.tests[test_name]["unit"],
+            "status": status,
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+        }
+        self.results.append(result)
+        self.save_results()
