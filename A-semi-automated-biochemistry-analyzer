@@ -65,11 +65,7 @@ class BiochemistryAnalyzer:
         print("Please load sample and reagent into cuvette (manual step)...")
         time.sleep(2)  # Simulate manual sample preparation
 
-        absorbance = float(input("Enter absorbance reading (or press Enter to simulate): ") or self.simulate_absorbance())
-        print(f"Absorbance: {absorbance:.2f}")
-
-        concentration = self.calculate_concentration(absorbance, test_name)
-        status = self.interpret_result(test_name, concentration)
+       
 
     
       
