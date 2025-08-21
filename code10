@@ -1,0 +1,3 @@
+ print(f"\nRunning {test_name} test for Patient ID: {patient_id}")
+        print("Please load sample and reagent into cuvette (manual step)...")
+        time.sleep(2)  # Simulate manual sample preparation
